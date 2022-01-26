@@ -1,0 +1,28 @@
+{
+  "name": "markdown-blog",
+  "version": "1.0.0",
+  "description": "Getting Back to Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pippo223/markdown-blog.git"
+  },
+  "author": "Philip O. Asare",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pippo223/markdown-blog/issues"
+  },
+  "homepage": "https://github.com/Pippo223/markdown-blog#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
